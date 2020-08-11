@@ -1,0 +1,6 @@
+notes:
+
+	Created s3 bucket to host static site
+	Deployed using Cloudfront for HTTPS
+	Setup CodePipeline to push to S3 on commit to master
+	
