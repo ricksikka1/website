@@ -36,7 +36,7 @@ div.btnbg {
     position: absolute;
   	top: 160px;
   	left: 65px;
-  	color: #e6e6e6;
+  	color: #E5E0DF;
   	font-size: 2.5vw;
 
 }
@@ -48,15 +48,32 @@ div.btnbg {
 }
 
 .links a{
-	color: #e6e6e6;
+	color: #E5E0DF;
 	text-decoration: none;
 	font-size: 2.5vw;
 }
 .links2 a{
 	position: relative;
-	top: 5px;
-	left: 9px;
-	color: #e6e6e6;
+	top: 9px;
+	left: 12px;
+	color: #E5E0DF;
 	text-decoration: none;
 	font-size: 2.5vw;
+}
+
+.links a:hover .centered{
+	overflow: hidden; /* Ensures the content is not revealed until the animation */
+  border-right: .15em; /* The typwriter cursor */
+  white-space: nowrap; /* Keeps the content on a single line */
+  margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+  letter-spacing: .15em;
+  display: flex; /* Adjust as needed */
+  animation: 
+    typing 3.5s steps(40, end),
+    blink-caret .75s step-end infinite;
+    position: absolute;
+  	top: 160px;
+  	left: 65px;
+  	color: #E5E0DF;
+  	font-size: 2.5vw;
 }
